@@ -2,8 +2,98 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: "Podkova", serif;
 }
 body{
-    min-height: 500px;
-    min-width: 500px;
+    min-height:100vh;
+    /* margin:auto; */
+    margin: 1rem;
+    /* background-color:#E7F9A9  ; */
+    background-image: url("book1.png");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+main{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFE9D0;
+    padding: 2rem;
+    text-align: center;
+    min-height: 400px;
+    min-width: 400px;
+    
+    border-radius: 2rem;
+    box-shadow: 3px 3px 3px grey;
+    
+}
+
+.head1{
+    font-size: 3rem;
+    letter-spacing: 0.2rem;
+    padding: 0.5rem;
+    font-weight: 900;
+    background-color: #FFFED3;
+    border-radius: 1rem 1rem 0 0;
+    margin-bottom: 0.5rem;
+    border: 2px solid black;
+    min-width: 100%;
+    
+
+}
+.head_div{
+    width: 100%;
+}
+.main_cont{
+    width: 100%;
+    padding: 1rem;
+    border-radius:0 0 1rem 1rem;
+    background-color: #BBE9FF;
+    box-shadow: 2px 2px 2px grey;
+    border: 2px solid black
+    
+    
+}
+
+.quote{
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    line-height: 2.5rem;
+    font-style: italic;
+    
+}
+
+
+
+.person{
+    font-size: 1.2rem;
+    font-weight: 900;
+    padding: 0.5rem;
+    color: rgb(238, 47, 47);
+}
+
+.btn{
+    background-color: #FFFED3;
+    padding: 1rem;
+    margin-top:1rem;
+    font-size: 1.1rem;
+    border:5px double black;
+    border-radius: 1rem;
+    width: 100%;
+    
+}
+
+.btn:hover{
+    border: 5px double #FFFED3;
+    transition-duration: 0.5s;
+    background-color: black;
+    color:#FFFED3 ;
+    cursor: pointer;
+}
+
